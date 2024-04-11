@@ -1,0 +1,8 @@
+title: APPX Removal
+actions:
+  - writeStatus: {status: 'Forging Files'}
+  - writeStatus: {status: 'Eliminating Executables'}
+  - writeStatus: {status: 'Rewriting Registry'}
+  - writeStatus: {status: 'Setting Sweet'}
+  - writeStatus: {status: 'Producing Paranoid'}
+  - writeStatus: {status: 'Saving Setup'}

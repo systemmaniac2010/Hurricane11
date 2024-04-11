@@ -1,0 +1,4 @@
+title: Hurricane11Custom
+tasks:
+- Tasks\registry.yml
+- Tasks\appx.yml
