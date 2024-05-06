@@ -1,0 +1,451 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Preset xmlns="urn:schemas-nliteos-com:pn.v1">
+	<Date>05/02/2024 20:19:27</Date>
+	<AppInfo>
+		<Version>2024.4.9880</Version>
+		<Licensed>No</Licensed>
+		<Protections>Yes</Protections>
+		<Host>Windows 10 Pro 22H2 x64 - 10.0.19041.4170 (en-US)</Host>
+	</AppInfo>
+	<ImageInfo>
+		<Version mode="offline">Windows 11 Professional 23H2 x64 - 10.0.22631.2861 (en-GB)</Version>
+		<GUID>{120D1B46-3AC1-4216-9967-F60C85BF5B6B}</GUID>
+	</ImageInfo>
+	<RemoveComponents AppRemovalMode="DISM">
+		<c>clipchamp.clipchamp 'Clipchamp'</c>
+		<c>f46d4000-fd22-4db4-ac8e-4e1ddde828fe 'Add Folder Suggestions dialogue'</c>
+		<c>microsoft.bingnews 'Microsoft News'</c>
+		<c>microsoft.bingweather 'MSN Weather'</c>
+		<c>microsoft.ecapp 'Eye Control'</c>
+		<c>microsoft.gethelp 'Get Help'</c>
+		<c>microsoft.getstarted 'Tips (Get Started)'</c>
+		<c>microsoft.microsoftofficehub 'Office'</c>
+		<c>microsoft.microsoftsolitairecollection 'Microsoft Solitaire Collection'</c>
+		<c>microsoft.microsoftstickynotes 'Microsoft Sticky Notes'</c>
+		<c>microsoft.paint 'Paint'</c>
+		<c>microsoft.people 'Microsoft People'</c>
+		<c>microsoft.powerautomatedesktop 'Power Automate'</c>
+		<c>microsoft.screensketch 'Snipping Tool'</c>
+		<c>microsoft.todos 'Microsoft To Do'</c>
+		<c>microsoft.windows.assignedaccesslockapp 'Assigned Access Lock app'</c>
+		<c>microsoft.windows.callingshellapp 'Call'</c>
+		<c>microsoft.windows.contentdeliverymanager 'Content Delivery Manager'</c>
+		<c>microsoft.windows.parentalcontrols 'Microsoft family features'</c>
+		<c>microsoft.windows.pinningconfirmationdialog 'PinningConfirmationDialog'</c>
+		<c>microsoft.windows.secureassessmentbrowser 'Take a Test'</c>
+		<c>microsoft.windows.xgpuejectdialog 'Safely Remove Device'</c>
+		<c>microsoft.windowsalarms 'Windows Alarms &amp; Clock'</c>
+		<c>microsoft.windowscalculator 'Windows Calculator'</c>
+		<c>microsoft.windowscamera 'Windows Camera'</c>
+		<c>microsoft.windowscommunicationsapps 'Mail and Calendar'</c>
+		<c>microsoft.windowsfeedbackhub 'Feedback Hub'</c>
+		<c>microsoft.windowsmaps 'Windows Maps'</c>
+		<c>microsoft.windowssoundrecorder 'Windows Voice Recorder'</c>
+		<c>microsoft.yourphone 'Your Phone'</c>
+		<c>microsoft.zunemusic 'Windows Media Player'</c>
+		<c>microsoftcorporationii.quickassist 'Quick Assist'</c>
+	</RemoveComponents>
+	<Compatibility protectHidden="false">
+		<ComponentFeatures>
+			<Feature enabled="no">AppGuard</Feature>
+			<Feature enabled="no">Battle.net</Feature>
+			<Feature enabled="no">YubiKey</Feature>
+			<Feature enabled="no">Bluetooth</Feature>
+			<Feature enabled="yes">USBCamera</Feature>
+			<Feature enabled="no">CapFrameX</Feature>
+			<Feature enabled="yes">Discord</Feature>
+			<Feature enabled="yes">FileSharing</Feature>
+			<Feature enabled="no">Hyper-V</Feature>
+			<Feature enabled="no">iCloud</Feature>
+			<Feature enabled="no">Kaspersky</Feature>
+			<Feature enabled="yes">ManualSetup</Feature>
+			<Feature enabled="no">OfficeSupport</Feature>
+			<Feature enabled="yes">AppxSupport</Feature>
+			<Feature enabled="no">Netflix</Feature>
+			<Feature enabled="no">NetworkDiscovery</Feature>
+			<Feature enabled="yes">NightLight</Feature>
+			<Feature enabled="yes">NvidiaSetup</Feature>
+			<Feature enabled="yes">OOBE</Feature>
+			<Feature enabled="yes">Printing</Feature>
+			<Feature enabled="yes">Recommended-All</Feature>
+			<Feature enabled="no">SamsungSwitch</Feature>
+			<Feature enabled="yes">Scanning</Feature>
+			<Feature enabled="yes">ServicingStack</Feature>
+			<Feature enabled="no">ShellSearchSupport</Feature>
+			<Feature enabled="no">Spotify</Feature>
+			<Feature enabled="yes">SFC</Feature>
+			<Feature enabled="yes">DefaultFonts</Feature>
+			<Feature enabled="no">SafeMode</Feature>
+			<Feature enabled="no">TeamViewer</Feature>
+			<Feature enabled="no">Recommended-Tablet</Feature>
+			<Feature enabled="no">USBModem</Feature>
+			<Feature enabled="yes">USB</Feature>
+			<Feature enabled="yes">VideoPlayback</Feature>
+			<Feature enabled="no">VPN</Feature>
+			<Feature enabled="no">VisualStudio</Feature>
+			<Feature enabled="no">VSS</Feature>
+			<Feature enabled="yes">ActivationKMS</Feature>
+			<Feature enabled="yes">Activation</Feature>
+			<Feature enabled="yes">WinSetup</Feature>
+			<Feature enabled="yes">WindowsStore</Feature>
+			<Feature enabled="yes">WindowsUpdate</Feature>
+			<Feature enabled="yes">WLAN</Feature>
+		</ComponentFeatures>
+		<MachineDrivers>
+			<Machine enabled="yes">HostMachine</Machine>
+			<Machine enabled="no">Hyper-V VM</Machine>
+			<Machine enabled="no">Parallels VM</Machine>
+			<Machine enabled="no">Virtual Box VM</Machine>
+			<Machine enabled="no">VMware VM</Machine>
+		</MachineDrivers>
+	</Compatibility>
+	<Features>
+		<Feature name="NetFx4Extended-ASPNET45">true</Feature>
+		<Feature name="HostGuardian">true</Feature>
+		<Feature name="WCF-HTTP-Activation45">true</Feature>
+		<Feature name="Microsoft-Hyper-V-Management-Clients">true</Feature>
+		<Feature name="Microsoft-Hyper-V-Hypervisor">true</Feature>
+		<Feature name="Microsoft-Hyper-V-Tools-All">true</Feature>
+		<Feature name="Microsoft-Hyper-V-Management-PowerShell">true</Feature>
+		<Feature name="Microsoft-Hyper-V">true</Feature>
+		<Feature name="Microsoft-Hyper-V-Services">true</Feature>
+		<Feature name="Microsoft-Hyper-V-All">true</Feature>
+		<Feature name="WCF-MSMQ-Activation45">true</Feature>
+		<Feature name="WCF-Pipe-Activation45">true</Feature>
+		<Feature name="WCF-TCP-Activation45">true</Feature>
+		<Feature name="Microsoft-Windows-Subsystem-Linux">true</Feature>
+	</Features>
+	<Packages>
+		<Options>
+			<CleanHotfixedLeftovers>0</CleanHotfixedLeftovers>
+			<OptimizeAppX>false</OptimizeAppX>
+		</Options>
+	</Packages>
+	<Commands>
+		<PostUpdates>
+			<!--<Command>cmd /c echo Example from [MOUNTDIR]\Windows &amp; pause</Command>-->
+			<!--<Command>dism /image:[MOUNTDIR] /get-intl</Command>-->
+		</PostUpdates>
+	</Commands>
+	<Drivers>
+		<Options>
+			<ReuseDriverCache>false</ReuseDriverCache>
+			<ShowHidden>false</ShowHidden>
+		</Options>
+	</Drivers>
+	<Unattended mode="1">
+		<AnswerFileLocationPanther>false</AnswerFileLocationPanther>
+		<AnswerFileLocationBoot>false</AnswerFileLocationBoot>
+		<SaveBothArch>false</SaveBothArch>
+		<EditionPrompt>false</EditionPrompt>
+		<settings pass="oobeSystem">
+			<component name="Microsoft-Windows-Shell-Setup">
+				<OOBE>
+					<HideEULAPage>true</HideEULAPage>
+					<HideOnlineAccountScreens>true</HideOnlineAccountScreens>
+					<HideWirelessSetupInOOBE>true</HideWirelessSetupInOOBE>
+					<ProtectYourPC>3</ProtectYourPC>
+				</OOBE>
+			</component>
+		</settings>
+		<settings pass="windowsPE">
+			<component name="Microsoft-Windows-Setup">
+				<Diagnostics>
+					<OptIn>false</OptIn>
+				</Diagnostics>
+				<DynamicUpdate>
+					<WillShowUI>OnError</WillShowUI>
+				</DynamicUpdate>
+				<ImageInstall>
+					<OSImage>
+						<WillShowUI>OnError</WillShowUI>
+						<InstallFrom>
+							<MetaData>
+								<Key>/IMAGE/INDEX</Key>
+								<Value>6</Value>
+							</MetaData>
+						</InstallFrom>
+					</OSImage>
+				</ImageInstall>
+				<UserData>
+					<AcceptEula>true</AcceptEula>
+					<ProductKey>
+						<Key></Key>
+					</ProductKey>
+				</UserData>
+			</component>
+		</settings>
+	</Unattended>
+	<Tweaks>
+		<Settings>
+			<TweakGroup name="DesktopTweaks">
+				<Tweak name="Accent\AccentColorMenu">8388736</Tweak>
+				<Tweak name="Accent\StartColorMenu">8388736</Tweak>
+				<Tweak name="DWM\AccentColorInactive">13828244</Tweak>
+				<Tweak name="WindowMetrics\MinAnimate">1</Tweak>
+				<Tweak name="PushNotifications\NoCloudApplicationNotification">1</Tweak>
+				<Tweak name="Desktop\ScreenSaverIsSecure">0</Tweak>
+				<Tweak name="Start\HideRecentJumplists">1</Tweak>
+				<Tweak name="Personalize\ColorPrevalence">1</Tweak>
+				<Tweak name="DWM\ColorPrevalence">1</Tweak>
+				<Tweak name="People\PeopleBand">0</Tweak>
+				<Tweak name="Advanced\TaskbarAl">1</Tweak>
+				<Tweak name="Advanced\TaskbarMn">0</Tweak>
+				<Tweak name="Advanced\TaskbarDa">0</Tweak>
+				<Tweak name="Communications\ConfigureChatAutoInstall">0</Tweak>
+			</TweakGroup>
+			<TweakGroup name="Explorer">
+				<Tweak name="Explorer\NoCDBurning">0</Tweak>
+				<Tweak name="Explorer\ClearRecentDocsOnExit">1</Tweak>
+				<Tweak name="cmd\HideBasedOnVelocityId">0</Tweak>
+				<Tweak name="Explorer\NoRecentDocsHistory">1</Tweak>
+				<Tweak name="Explorer\ConfirmFileDelete">0</Tweak>
+				<Tweak name="Explorer\HideClock">1</Tweak>
+				<Tweak name="Explorer\ShowDriveLettersFirst">0</Tweak>
+				<Tweak name="Advanced\HideDrivesWithNoMedia">0</Tweak>
+				<Tweak name="Advanced\HideFileExt">0</Tweak>
+				<Tweak name="Advanced\Hidden">1</Tweak>
+				<Tweak name="Advanced\ShowSuperHidden">1</Tweak>
+			</TweakGroup>
+			<TweakGroup name="StartTweaks">
+				<Tweak name="Start\HideAppList">0</Tweak>
+				<Tweak name="Start\HideFrequentlyUsedApps">1</Tweak>
+				<Tweak name="Start\AllowPinnedFolderDocuments">1</Tweak>
+				<Tweak name="Start\AllowPinnedFolderDownloads">1</Tweak>
+				<Tweak name="Start\AllowPinnedFolderFileExplorer">1</Tweak>
+				<Tweak name="Start\AllowPinnedFolderHomeGroup">1</Tweak>
+				<Tweak name="Start\AllowPinnedFolderMusic">1</Tweak>
+				<Tweak name="Start\AllowPinnedFolderNetwork">1</Tweak>
+				<Tweak name="Start\AllowPinnedFolderPersonalFolder">1</Tweak>
+				<Tweak name="Start\AllowPinnedFolderPictures">1</Tweak>
+				<Tweak name="Start\AllowPinnedFolderSettings">1</Tweak>
+				<Tweak name="Start\AllowPinnedFolderVideos">1</Tweak>
+				<Tweak name="Explorer\ShowOrHideMostUsedApps">0</Tweak>
+				<Tweak name="Advanced\Start_IrisRecommendations">0</Tweak>
+			</TweakGroup>
+			<TweakGroup name="System">
+				<Tweak name="Device\DevicePasswordLessBuildVersion">0</Tweak>
+				<Tweak name="LabConfig\BypassRAMCheck">1</Tweak>
+				<Tweak name="LabConfig\BypassTPMCheck">1</Tweak>
+				<Tweak name="MoSetup\AllowUpgradesWithUnsupportedTPMOrCPU">1</Tweak>
+			</TweakGroup>
+			<TweakGroup name="UAC">
+				<Tweak name="System\EnableLUA">0</Tweak>
+				<Tweak name="System\ConsentPromptBehaviorAdmin">0</Tweak>
+			</TweakGroup>
+		</Settings>
+		<Services></Services>
+		<ExtraServices></ExtraServices>
+		<ScheduledTasks></ScheduledTasks>
+	</Tweaks>
+	<ApplyOptions>
+		<ImageTasks>
+			<Task>imageSaveRebuild</Task>
+			<Task>imageFormatWim</Task>
+			<Task>updates_Winre.wim_01__64</Task>
+			<Task>updates_boot.wim_01_9_64</Task>
+			<Task>updates_boot.wim_02_2_64</Task>
+			<Task>features_Winre.wim_01__64</Task>
+			<Task>features_install.wim_01_Core_64</Task>
+			<Task>features_install.wim_02_CoreN_64</Task>
+			<Task>features_install.wim_03_CoreSingleLanguage_64</Task>
+			<Task>features_install.wim_04_Education_64</Task>
+			<Task>features_install.wim_05_EducationN_64</Task>
+			<Task>features_install.wim_07_ProfessionalN_64</Task>
+			<Task>features_install.wim_08_ProfessionalEducation_64</Task>
+			<Task>features_install.wim_09_ProfessionalEducationN_64</Task>
+			<Task>features_install.wim_10_ProfessionalWorkstation_64</Task>
+			<Task>features_install.wim_11_ProfessionalWorkstationN_64</Task>
+			<Task>components_Winre.wim_01__64</Task>
+			<Task>components_install.wim_01_Core_64</Task>
+			<Task>components_install.wim_02_CoreN_64</Task>
+			<Task>components_install.wim_03_CoreSingleLanguage_64</Task>
+			<Task>components_install.wim_04_Education_64</Task>
+			<Task>components_install.wim_05_EducationN_64</Task>
+			<Task>components_install.wim_07_ProfessionalN_64</Task>
+			<Task>components_install.wim_08_ProfessionalEducation_64</Task>
+			<Task>components_install.wim_09_ProfessionalEducationN_64</Task>
+			<Task>components_install.wim_10_ProfessionalWorkstation_64</Task>
+			<Task>components_install.wim_11_ProfessionalWorkstationN_64</Task>
+			<Task>components_boot.wim_01_9_64</Task>
+			<Task>components_boot.wim_02_2_64</Task>
+			<Task>msix_Winre.wim_01__64</Task>
+			<Task>msix_install.wim_01_Core_64</Task>
+			<Task>msix_install.wim_02_CoreN_64</Task>
+			<Task>msix_install.wim_03_CoreSingleLanguage_64</Task>
+			<Task>msix_install.wim_04_Education_64</Task>
+			<Task>msix_install.wim_05_EducationN_64</Task>
+			<Task>msix_install.wim_07_ProfessionalN_64</Task>
+			<Task>msix_install.wim_08_ProfessionalEducation_64</Task>
+			<Task>msix_install.wim_09_ProfessionalEducationN_64</Task>
+			<Task>msix_install.wim_10_ProfessionalWorkstation_64</Task>
+			<Task>msix_install.wim_11_ProfessionalWorkstationN_64</Task>
+			<Task>msix_boot.wim_01_9_64</Task>
+			<Task>msix_boot.wim_02_2_64</Task>
+			<Task>drivers_Winre.wim_01__64</Task>
+			<Task>drivers_install.wim_01_Core_64</Task>
+			<Task>drivers_install.wim_02_CoreN_64</Task>
+			<Task>drivers_install.wim_03_CoreSingleLanguage_64</Task>
+			<Task>drivers_install.wim_04_Education_64</Task>
+			<Task>drivers_install.wim_05_EducationN_64</Task>
+			<Task>drivers_install.wim_07_ProfessionalN_64</Task>
+			<Task>drivers_install.wim_08_ProfessionalEducation_64</Task>
+			<Task>drivers_install.wim_09_ProfessionalEducationN_64</Task>
+			<Task>drivers_install.wim_10_ProfessionalWorkstation_64</Task>
+			<Task>drivers_install.wim_11_ProfessionalWorkstationN_64</Task>
+			<Task>drivers_boot.wim_01_9_64</Task>
+			<Task>drivers_boot.wim_02_2_64</Task>
+			<Task>tweakscheduledtasks_Winre.wim_01__64</Task>
+			<Task>tweakscheduledtasks_install.wim_01_Core_64</Task>
+			<Task>tweakscheduledtasks_install.wim_02_CoreN_64</Task>
+			<Task>tweakscheduledtasks_install.wim_03_CoreSingleLanguage_64</Task>
+			<Task>tweakscheduledtasks_install.wim_04_Education_64</Task>
+			<Task>tweakscheduledtasks_install.wim_05_EducationN_64</Task>
+			<Task>tweakscheduledtasks_install.wim_07_ProfessionalN_64</Task>
+			<Task>tweakscheduledtasks_install.wim_08_ProfessionalEducation_64</Task>
+			<Task>tweakscheduledtasks_install.wim_09_ProfessionalEducationN_64</Task>
+			<Task>tweakscheduledtasks_install.wim_10_ProfessionalWorkstation_64</Task>
+			<Task>tweakscheduledtasks_install.wim_11_ProfessionalWorkstationN_64</Task>
+			<Task>tweakscheduledtasks_boot.wim_01_9_64</Task>
+			<Task>tweakscheduledtasks_boot.wim_02_2_64</Task>
+			<Task>tweakservices_Winre.wim_01__64</Task>
+			<Task>tweakservices_install.wim_01_Core_64</Task>
+			<Task>tweakservices_install.wim_02_CoreN_64</Task>
+			<Task>tweakservices_install.wim_03_CoreSingleLanguage_64</Task>
+			<Task>tweakservices_install.wim_04_Education_64</Task>
+			<Task>tweakservices_install.wim_05_EducationN_64</Task>
+			<Task>tweakservices_install.wim_07_ProfessionalN_64</Task>
+			<Task>tweakservices_install.wim_08_ProfessionalEducation_64</Task>
+			<Task>tweakservices_install.wim_09_ProfessionalEducationN_64</Task>
+			<Task>tweakservices_install.wim_10_ProfessionalWorkstation_64</Task>
+			<Task>tweakservices_install.wim_11_ProfessionalWorkstationN_64</Task>
+			<Task>tweakservices_boot.wim_01_9_64</Task>
+			<Task>tweakservices_boot.wim_02_2_64</Task>
+			<Task>tweakextraservices_Winre.wim_01__64</Task>
+			<Task>tweakextraservices_install.wim_01_Core_64</Task>
+			<Task>tweakextraservices_install.wim_02_CoreN_64</Task>
+			<Task>tweakextraservices_install.wim_03_CoreSingleLanguage_64</Task>
+			<Task>tweakextraservices_install.wim_04_Education_64</Task>
+			<Task>tweakextraservices_install.wim_05_EducationN_64</Task>
+			<Task>tweakextraservices_install.wim_07_ProfessionalN_64</Task>
+			<Task>tweakextraservices_install.wim_08_ProfessionalEducation_64</Task>
+			<Task>tweakextraservices_install.wim_09_ProfessionalEducationN_64</Task>
+			<Task>tweakextraservices_install.wim_10_ProfessionalWorkstation_64</Task>
+			<Task>tweakextraservices_install.wim_11_ProfessionalWorkstationN_64</Task>
+			<Task>tweakextraservices_boot.wim_01_9_64</Task>
+			<Task>tweakextraservices_boot.wim_02_2_64</Task>
+			<Task>tweaksettings_Winre.wim_01__64</Task>
+			<Task>tweaksettings_install.wim_01_Core_64</Task>
+			<Task>tweaksettings_install.wim_02_CoreN_64</Task>
+			<Task>tweaksettings_install.wim_03_CoreSingleLanguage_64</Task>
+			<Task>tweaksettings_install.wim_04_Education_64</Task>
+			<Task>tweaksettings_install.wim_05_EducationN_64</Task>
+			<Task>tweaksettings_install.wim_07_ProfessionalN_64</Task>
+			<Task>tweaksettings_install.wim_08_ProfessionalEducation_64</Task>
+			<Task>tweaksettings_install.wim_09_ProfessionalEducationN_64</Task>
+			<Task>tweaksettings_install.wim_10_ProfessionalWorkstation_64</Task>
+			<Task>tweaksettings_install.wim_11_ProfessionalWorkstationN_64</Task>
+			<Task>tweaksettings_boot.wim_01_9_64</Task>
+			<Task>tweaksettings_boot.wim_02_2_64</Task>
+			<Task>registry_Winre.wim_01__64</Task>
+			<Task>registry_install.wim_01_Core_64</Task>
+			<Task>registry_install.wim_02_CoreN_64</Task>
+			<Task>registry_install.wim_03_CoreSingleLanguage_64</Task>
+			<Task>registry_install.wim_04_Education_64</Task>
+			<Task>registry_install.wim_05_EducationN_64</Task>
+			<Task>registry_install.wim_07_ProfessionalN_64</Task>
+			<Task>registry_install.wim_08_ProfessionalEducation_64</Task>
+			<Task>registry_install.wim_09_ProfessionalEducationN_64</Task>
+			<Task>registry_install.wim_10_ProfessionalWorkstation_64</Task>
+			<Task>registry_install.wim_11_ProfessionalWorkstationN_64</Task>
+			<Task>registry_boot.wim_01_9_64</Task>
+			<Task>registry_boot.wim_02_2_64</Task>
+			<Task>postsetup_install.wim_01_Core_64</Task>
+			<Task>postsetup_install.wim_02_CoreN_64</Task>
+			<Task>postsetup_install.wim_03_CoreSingleLanguage_64</Task>
+			<Task>postsetup_install.wim_04_Education_64</Task>
+			<Task>postsetup_install.wim_05_EducationN_64</Task>
+			<Task>postsetup_install.wim_07_ProfessionalN_64</Task>
+			<Task>postsetup_install.wim_08_ProfessionalEducation_64</Task>
+			<Task>postsetup_install.wim_09_ProfessionalEducationN_64</Task>
+			<Task>postsetup_install.wim_10_ProfessionalWorkstation_64</Task>
+			<Task>postsetup_install.wim_11_ProfessionalWorkstationN_64</Task>
+		</ImageTasks>
+		<AutoIsoFile>NTLite.iso</AutoIsoFile>
+		<AutoIsoLabel>HurricaneOS</AutoIsoLabel>
+		<AutoSplitSize>4000</AutoSplitSize>
+	</ApplyOptions>
+	<Execution BeforeLogonMode="0">
+		<Remove></Remove>
+		<Change></Change>
+		<Add>
+			<Item type="29">
+				<Path>L:\H11\NTLite\ps1\Files.ps1</Path>
+				<Params></Params>
+				<DestMode>1</DestMode>
+				<Index>0</Index>
+			</Item>
+			<Item type="29">
+				<Path>L:\H11\NTLite\ps1\OEMConfig.ps1</Path>
+				<Params></Params>
+				<DestMode>1</DestMode>
+				<Index>1</Index>
+			</Item>
+			<Item type="29">
+				<Path>L:\H11\NTLite\ps1\ThemeConfig.ps1</Path>
+				<Params></Params>
+				<DestMode>1</DestMode>
+				<Index>2</Index>
+			</Item>
+			<Item type="29">
+				<Path>L:\H11\NTLite\ps1\ThemeInstall.ps1</Path>
+				<Params></Params>
+				<DestMode>1</DestMode>
+				<Index>3</Index>
+			</Item>
+			<Item type="29">
+				<Path>L:\H11\NTLite\ps1\LoginWallpaper.ps1</Path>
+				<Params></Params>
+				<DestMode>1</DestMode>
+				<Index>4</Index>
+			</Item>
+			<Item type="29">
+				<Path>L:\H11\NTLite\ps1\DesktopWallpaper.ps1</Path>
+				<Params></Params>
+				<DestMode>1</DestMode>
+				<Index>5</Index>
+			</Item>
+			<Item type="29">
+				<Path>L:\H11\NTLite\ps1\Desktop.ps1</Path>
+				<Params></Params>
+				<DestMode>1</DestMode>
+				<Index>6</Index>
+			</Item>
+			<Item type="29">
+				<Path>L:\H11\NTLite\ps1\Translucenttb.ps1</Path>
+				<Params></Params>
+				<DestMode>1</DestMode>
+				<Index>7</Index>
+			</Item>
+			<Item type="17">
+				<Path>L:\H11\NTLite\exe\OperaGXSetup.exe</Path>
+				<Params>/silent /installfolder="C:\Opera GX" /allusers=1 /launchopera=0 /setdefaultbrowser=0</Params>
+				<DestMode>1</DestMode>
+				<Index>8</Index>
+			</Item>
+			<Item type="23">
+				<Path>L:\H11\NTLite\files\Resources</Path>
+				<DestMode>1</DestMode>
+				<DestPath>\Windows\Setup\Resources\</DestPath>
+				<Index>9</Index>
+			</Item>
+			<Item type="23">
+				<Path>L:\H11\NTLite\files\Web</Path>
+				<DestMode>1</DestMode>
+				<DestPath>\Windows\Setup\Web\</DestPath>
+				<Index>10</Index>
+			</Item>
+		</Add>
+	</Execution>
+	<Registry></Registry>
+</Preset>
