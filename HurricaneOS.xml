@@ -1,0 +1,363 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Preset xmlns="urn:schemas-nliteos-com:pn.v1">
+	<Date>05/10/2024 12:31:03</Date>
+	<AppInfo>
+		<Version>2024.4.9860</Version>
+		<Licensed>No</Licensed>
+		<Protections>Yes</Protections>
+		<Host>Windows 11 Pro 23H2 x64 - 10.0.22631.3447 (en-GB)</Host>
+	</AppInfo>
+	<ImageInfo>
+		<Version mode="offline">Windows 11 Professional 23H2 x64 - 10.0.22631.2861 (en-GB)</Version>
+		<GUID>{120D1B46-3AC1-4216-9967-F60C85BF5B6B}</GUID>
+	</ImageInfo>
+	<RemoveComponents AppRemovalMode="DISM">
+		<c>clipchamp.clipchamp 'Clipchamp'</c>
+		<c>microsoft.549981c3f5f10 'Cortana'</c>
+		<c>microsoft.bingnews 'Microsoft News'</c>
+		<c>microsoft.bingweather 'MSN Weather'</c>
+		<c>microsoft.gethelp 'Get Help'</c>
+		<c>microsoft.getstarted 'Tips (Get Started)'</c>
+		<c>microsoft.microsoftofficehub 'Office'</c>
+		<c>microsoft.microsoftsolitairecollection 'Microsoft Solitaire Collection'</c>
+		<c>microsoft.microsoftstickynotes 'Microsoft Sticky Notes'</c>
+		<c>microsoft.people 'Microsoft People'</c>
+		<c>microsoft.todos 'Microsoft To Do'</c>
+		<c>microsoft.windows.callingshellapp 'Call'</c>
+		<c>microsoft.windowsalarms 'Windows Alarms &amp; Clock'</c>
+		<c>microsoft.windowscommunicationsapps 'Mail and Calendar'</c>
+		<c>microsoft.windowsfeedbackhub 'Feedback Hub'</c>
+		<c>microsoft.windowsmaps 'Windows Maps'</c>
+		<c>microsoft.yourphone 'Your Phone'</c>
+	</RemoveComponents>
+	<Compatibility protectHidden="false">
+		<ComponentFeatures>
+			<Feature enabled="no">AppGuard</Feature>
+			<Feature enabled="yes">Battle.net</Feature>
+			<Feature enabled="no">YubiKey</Feature>
+			<Feature enabled="no">Bluetooth</Feature>
+			<Feature enabled="yes">USBCamera</Feature>
+			<Feature enabled="no">CapFrameX</Feature>
+			<Feature enabled="yes">Discord</Feature>
+			<Feature enabled="yes">FileSharing</Feature>
+			<Feature enabled="no">Hyper-V</Feature>
+			<Feature enabled="no">iCloud</Feature>
+			<Feature enabled="no">Kaspersky</Feature>
+			<Feature enabled="yes">ManualSetup</Feature>
+			<Feature enabled="yes">OfficeSupport</Feature>
+			<Feature enabled="yes">AppxSupport</Feature>
+			<Feature enabled="yes">Netflix</Feature>
+			<Feature enabled="no">NetworkDiscovery</Feature>
+			<Feature enabled="yes">NightLight</Feature>
+			<Feature enabled="yes">NvidiaSetup</Feature>
+			<Feature enabled="yes">OOBE</Feature>
+			<Feature enabled="yes">Printing</Feature>
+			<Feature enabled="yes">Recommended-All</Feature>
+			<Feature enabled="no">SamsungSwitch</Feature>
+			<Feature enabled="yes">Scanning</Feature>
+			<Feature enabled="yes">ServicingStack</Feature>
+			<Feature enabled="yes">ShellSearchSupport</Feature>
+			<Feature enabled="yes">Spotify</Feature>
+			<Feature enabled="yes">SFC</Feature>
+			<Feature enabled="yes">DefaultFonts</Feature>
+			<Feature enabled="no">SafeMode</Feature>
+			<Feature enabled="yes">TeamViewer</Feature>
+			<Feature enabled="no">Recommended-Tablet</Feature>
+			<Feature enabled="no">USBModem</Feature>
+			<Feature enabled="yes">USB</Feature>
+			<Feature enabled="yes">VideoPlayback</Feature>
+			<Feature enabled="no">VPN</Feature>
+			<Feature enabled="yes">VisualStudio</Feature>
+			<Feature enabled="no">VSS</Feature>
+			<Feature enabled="yes">ActivationKMS</Feature>
+			<Feature enabled="yes">Activation</Feature>
+			<Feature enabled="yes">WinSetup</Feature>
+			<Feature enabled="yes">WindowsStore</Feature>
+			<Feature enabled="yes">WindowsUpdate</Feature>
+			<Feature enabled="yes">WLAN</Feature>
+		</ComponentFeatures>
+		<MachineDrivers>
+			<Machine enabled="yes">HostMachine</Machine>
+			<Machine enabled="no">Hyper-V VM</Machine>
+			<Machine enabled="no">Parallels VM</Machine>
+			<Machine enabled="no">Virtual Box VM</Machine>
+			<Machine enabled="no">VMware VM</Machine>
+		</MachineDrivers>
+	</Compatibility>
+	<Features>
+		<Feature name="Microsoft-Windows-Subsystem-Linux">true</Feature>
+	</Features>
+	<Packages>
+		<Options>
+			<CleanHotfixedLeftovers>0</CleanHotfixedLeftovers>
+			<OptimizeAppX>false</OptimizeAppX>
+		</Options>
+	</Packages>
+	<Commands>
+		<PostUpdates>
+			<!--<Command>cmd /c echo Example from [MOUNTDIR]\Windows &amp; pause</Command>-->
+			<!--<Command>dism /image:[MOUNTDIR] /get-intl</Command>-->
+		</PostUpdates>
+	</Commands>
+	<Drivers>
+		<Options>
+			<ReuseDriverCache>false</ReuseDriverCache>
+			<ShowHidden>false</ShowHidden>
+		</Options>
+	</Drivers>
+	<Unattended mode="1">
+		<AnswerFileLocationPanther>false</AnswerFileLocationPanther>
+		<AnswerFileLocationBoot>false</AnswerFileLocationBoot>
+		<SaveBothArch>false</SaveBothArch>
+		<EditionPrompt>false</EditionPrompt>
+		<settings pass="oobeSystem">
+			<component name="Microsoft-Windows-Shell-Setup">
+				<OEMInformation>
+					<Logo>C:\Windows\Resources\OEM\Hurricane11WallpaperOEMLogo.bmp</Logo>
+					<Manufacturer>HurricaneOS</Manufacturer>
+					<Model>Hurricane11_23H2</Model>
+					<SupportURL>https://www.reddit.com/r/Hurricane11/</SupportURL>
+				</OEMInformation>
+				<OOBE>
+					<HideEULAPage>true</HideEULAPage>
+					<HideLocalAccountScreen>false</HideLocalAccountScreen>
+					<HideOnlineAccountScreens>true</HideOnlineAccountScreens>
+					<HideWirelessSetupInOOBE>true</HideWirelessSetupInOOBE>
+					<ProtectYourPC>3</ProtectYourPC>
+				</OOBE>
+			</component>
+		</settings>
+		<settings pass="windowsPE">
+			<component name="Microsoft-Windows-Setup">
+				<Diagnostics>
+					<OptIn>true</OptIn>
+				</Diagnostics>
+				<DynamicUpdate>
+					<WillShowUI>OnError</WillShowUI>
+				</DynamicUpdate>
+				<ImageInstall>
+					<OSImage>
+						<Compact>true</Compact>
+						<WillShowUI>OnError</WillShowUI>
+						<InstallFrom>
+							<MetaData>
+								<Key>/IMAGE/INDEX</Key>
+								<Value>6</Value>
+							</MetaData>
+						</InstallFrom>
+					</OSImage>
+				</ImageInstall>
+				<UserData>
+					<AcceptEula>true</AcceptEula>
+					<ProductKey>
+						<Key></Key>
+					</ProductKey>
+				</UserData>
+			</component>
+		</settings>
+	</Unattended>
+	<Tweaks>
+		<Settings>
+			<TweakGroup name="DesktopTweaks">
+				<Tweak name="Accent\AccentColorMenu">8721863</Tweak>
+				<Tweak name="Accent\StartColorMenu">16646398</Tweak>
+				<Tweak name="DWM\AccentColorInactive">8034025</Tweak>
+				<Tweak name="Explorer\NoPinningStoreToTaskbar">0</Tweak>
+				<Tweak name="Personalize\AppsUseLightTheme">0</Tweak>
+				<Tweak name="Personalize\SystemUsesLightTheme">0</Tweak>
+				<Tweak name="Personalize\ColorPrevalence">1</Tweak>
+				<Tweak name="DWM\ColorPrevalence">1</Tweak>
+				<Tweak name="Advanced\TaskbarAl">1</Tweak>
+				<Tweak name="Advanced\TaskbarMn">1</Tweak>
+				<Tweak name="Advanced\MMTaskbarEnabled">1</Tweak>
+				<Tweak name="Advanced\TaskbarSmallIcons">1</Tweak>
+				<Tweak name="Advanced\TaskbarDa">0</Tweak>
+				<Tweak name="Keyboard\PrintScreenKeyForSnippingEnabled">1</Tweak>
+			</TweakGroup>
+			<TweakGroup name="Explorer">
+				<Tweak name="Explorer\EnableAutoTray">1</Tweak>
+				<Tweak name="Explorer\NoCDBurning">0</Tweak>
+				<Tweak name="Explorer\ClearRecentDocsOnExit">1</Tweak>
+				<Tweak name="cmd\HideBasedOnVelocityId">0</Tweak>
+				<Tweak name="ControlPanel\StartupPage">1</Tweak>
+				<Tweak name="Explorer\DisableThumbnailsOnNetworkFolders">1</Tweak>
+				<Tweak name="Advanced\LaunchTo">2</Tweak>
+				<Tweak name="Explorer\ConfirmFileDelete">1</Tweak>
+				<Tweak name="Advanced\DontUsePowerShellOnWinX">0</Tweak>
+				<Tweak name="Explorer\HideClock">0</Tweak>
+				<Tweak name="Explorer\ShowDriveLettersFirst">0</Tweak>
+				<Tweak name="Explorer\ShowCloudFilesInQuickAccess">1</Tweak>
+				<Tweak name="Advanced\HideFileExt">0</Tweak>
+				<Tweak name="Advanced\Hidden">1</Tweak>
+				<Tweak name="Advanced\ShowSuperHidden">1</Tweak>
+			</TweakGroup>
+			<TweakGroup name="StartTweaks">
+				<Tweak name="Start\HideAppList">0</Tweak>
+				<Tweak name="Start\HideFrequentlyUsedApps">1</Tweak>
+				<Tweak name="Explorer\HideRecentlyAddedApps">1</Tweak>
+				<Tweak name="Start\AllowPinnedFolderDocuments">1</Tweak>
+				<Tweak name="Start\AllowPinnedFolderDownloads">1</Tweak>
+				<Tweak name="Start\AllowPinnedFolderFileExplorer">1</Tweak>
+				<Tweak name="Start\AllowPinnedFolderHomeGroup">1</Tweak>
+				<Tweak name="Start\AllowPinnedFolderMusic">1</Tweak>
+				<Tweak name="Start\AllowPinnedFolderNetwork">1</Tweak>
+				<Tweak name="Start\AllowPinnedFolderPersonalFolder">1</Tweak>
+				<Tweak name="Start\AllowPinnedFolderPictures">1</Tweak>
+				<Tweak name="Start\AllowPinnedFolderSettings">1</Tweak>
+				<Tweak name="Start\AllowPinnedFolderVideos">1</Tweak>
+				<Tweak name="Explorer\ShowOrHideMostUsedApps">0</Tweak>
+				<Tweak name="Advanced\Start_IrisRecommendations">1</Tweak>
+			</TweakGroup>
+			<TweakGroup name="UAC">
+				<Tweak name="System\EnableLUA">0</Tweak>
+				<Tweak name="System\FilterAdministratorToken">0</Tweak>
+				<Tweak name="System\EnableInstallerDetection">0</Tweak>
+				<Tweak name="System\PromptOnSecureDesktop">0</Tweak>
+				<Tweak name="System\ConsentPromptBehaviorAdmin">0</Tweak>
+				<Tweak name="System\ConsentPromptBehaviorUser">0</Tweak>
+				<Tweak name="System\EnableSecureUIAPaths">0</Tweak>
+				<Tweak name="System\EnableVirtualization">0</Tweak>
+			</TweakGroup>
+		</Settings>
+		<Services></Services>
+		<ExtraServices></ExtraServices>
+		<ScheduledTasks></ScheduledTasks>
+	</Tweaks>
+	<ApplyOptions>
+		<ImageTasks>
+			<Task>imageSaveRebuild</Task>
+			<Task>imageFormatWim</Task>
+			<Task>features_Winre.wim_01__64</Task>
+			<Task>features_install.wim_01_Core_64</Task>
+			<Task>features_install.wim_02_CoreN_64</Task>
+			<Task>features_install.wim_03_CoreSingleLanguage_64</Task>
+			<Task>features_install.wim_04_Education_64</Task>
+			<Task>features_install.wim_05_EducationN_64</Task>
+			<Task>features_install.wim_07_ProfessionalN_64</Task>
+			<Task>features_install.wim_08_ProfessionalEducation_64</Task>
+			<Task>features_install.wim_09_ProfessionalEducationN_64</Task>
+			<Task>features_install.wim_10_ProfessionalWorkstation_64</Task>
+			<Task>features_install.wim_11_ProfessionalWorkstationN_64</Task>
+			<Task>components_Winre.wim_01__64</Task>
+			<Task>components_install.wim_01_Core_64</Task>
+			<Task>components_install.wim_02_CoreN_64</Task>
+			<Task>components_install.wim_03_CoreSingleLanguage_64</Task>
+			<Task>components_install.wim_04_Education_64</Task>
+			<Task>components_install.wim_05_EducationN_64</Task>
+			<Task>components_install.wim_07_ProfessionalN_64</Task>
+			<Task>components_install.wim_08_ProfessionalEducation_64</Task>
+			<Task>components_install.wim_09_ProfessionalEducationN_64</Task>
+			<Task>components_install.wim_10_ProfessionalWorkstation_64</Task>
+			<Task>components_install.wim_11_ProfessionalWorkstationN_64</Task>
+			<Task>components_boot.wim_01_9_64</Task>
+			<Task>components_boot.wim_02_2_64</Task>
+			<Task>msix_Winre.wim_01__64</Task>
+			<Task>msix_install.wim_01_Core_64</Task>
+			<Task>msix_install.wim_02_CoreN_64</Task>
+			<Task>msix_install.wim_03_CoreSingleLanguage_64</Task>
+			<Task>msix_install.wim_04_Education_64</Task>
+			<Task>msix_install.wim_05_EducationN_64</Task>
+			<Task>msix_install.wim_07_ProfessionalN_64</Task>
+			<Task>msix_install.wim_08_ProfessionalEducation_64</Task>
+			<Task>msix_install.wim_09_ProfessionalEducationN_64</Task>
+			<Task>msix_install.wim_10_ProfessionalWorkstation_64</Task>
+			<Task>msix_install.wim_11_ProfessionalWorkstationN_64</Task>
+			<Task>msix_boot.wim_01_9_64</Task>
+			<Task>msix_boot.wim_02_2_64</Task>
+			<Task>tweaksettings_Winre.wim_01__64</Task>
+			<Task>tweaksettings_install.wim_01_Core_64</Task>
+			<Task>tweaksettings_install.wim_02_CoreN_64</Task>
+			<Task>tweaksettings_install.wim_03_CoreSingleLanguage_64</Task>
+			<Task>tweaksettings_install.wim_04_Education_64</Task>
+			<Task>tweaksettings_install.wim_05_EducationN_64</Task>
+			<Task>tweaksettings_install.wim_07_ProfessionalN_64</Task>
+			<Task>tweaksettings_install.wim_08_ProfessionalEducation_64</Task>
+			<Task>tweaksettings_install.wim_09_ProfessionalEducationN_64</Task>
+			<Task>tweaksettings_install.wim_10_ProfessionalWorkstation_64</Task>
+			<Task>tweaksettings_install.wim_11_ProfessionalWorkstationN_64</Task>
+			<Task>tweaksettings_boot.wim_01_9_64</Task>
+			<Task>tweaksettings_boot.wim_02_2_64</Task>
+			<Task>postsetup_install.wim_01_Core_64</Task>
+			<Task>postsetup_install.wim_02_CoreN_64</Task>
+			<Task>postsetup_install.wim_03_CoreSingleLanguage_64</Task>
+			<Task>postsetup_install.wim_04_Education_64</Task>
+			<Task>postsetup_install.wim_05_EducationN_64</Task>
+			<Task>postsetup_install.wim_07_ProfessionalN_64</Task>
+			<Task>postsetup_install.wim_08_ProfessionalEducation_64</Task>
+			<Task>postsetup_install.wim_09_ProfessionalEducationN_64</Task>
+			<Task>postsetup_install.wim_10_ProfessionalWorkstation_64</Task>
+			<Task>postsetup_install.wim_11_ProfessionalWorkstationN_64</Task>
+			<Task>imageOptionsCreateIso</Task>
+		</ImageTasks>
+		<AutoIsoFile>C:\Users\syste\OneDrive\Documents\Hurricane11ISO.iso</AutoIsoFile>
+		<AutoIsoLabel>HurricaneOS</AutoIsoLabel>
+		<AutoSplitSize>4000</AutoSplitSize>
+	</ApplyOptions>
+	<Execution BeforeLogonMode="0">
+		<Remove></Remove>
+		<Change></Change>
+		<Add>
+			<Item type="23">
+				<Path>C:\Users\syste\OneDrive\Documents\NTLite\files\Resources</Path>
+				<DestMode>1</DestMode>
+				<DestPath>\Windows\Setup\Resources\</DestPath>
+				<Index>0</Index>
+			</Item>
+			<Item type="23">
+				<Path>C:\Users\syste\OneDrive\Documents\NTLite\files\Web</Path>
+				<DestMode>1</DestMode>
+				<DestPath>\Windows\Setup\Web\</DestPath>
+				<Index>1</Index>
+			</Item>
+			<Item type="29">
+				<Path>C:\Users\syste\OneDrive\Documents\NTLite\ps1\Files.ps1</Path>
+				<Params></Params>
+				<DestMode>1</DestMode>
+				<Index>2</Index>
+			</Item>
+			<Item type="30">
+				<Path>C:\Users\syste\OneDrive\Documents\NTLite\ps1\OEMConfig.ps1</Path>
+				<Params></Params>
+				<DestMode>1</DestMode>
+				<Index>1000</Index>
+			</Item>
+			<Item type="30">
+				<Path>C:\Users\syste\OneDrive\Documents\NTLite\ps1\ThemeConfig.ps1</Path>
+				<Params></Params>
+				<DestMode>1</DestMode>
+				<Index>1001</Index>
+			</Item>
+			<Item type="30">
+				<Path>C:\Users\syste\OneDrive\Documents\NTLite\ps1\ThemeInstall.ps1</Path>
+				<Params></Params>
+				<DestMode>1</DestMode>
+				<Index>1002</Index>
+			</Item>
+			<Item type="30">
+				<Path>C:\Users\syste\OneDrive\Documents\NTLite\ps1\LoginWallpaper.ps1</Path>
+				<Params></Params>
+				<DestMode>1</DestMode>
+				<Index>1003</Index>
+			</Item>
+			<Item type="30">
+				<Path>C:\Users\syste\OneDrive\Documents\NTLite\ps1\DesktopWallpaper.ps1</Path>
+				<Params></Params>
+				<DestMode>1</DestMode>
+				<Index>1004</Index>
+			</Item>
+			<Item type="30">
+				<Path>C:\Users\syste\OneDrive\Documents\NTLite\ps1\Desktop.ps1</Path>
+				<Params></Params>
+				<DestMode>1</DestMode>
+				<Index>1005</Index>
+			</Item>
+			<Item type="30">
+				<Path>C:\Users\syste\OneDrive\Documents\NTLite\ps1\Translucenttb.ps1</Path>
+				<Params></Params>
+				<DestMode>1</DestMode>
+				<Index>1006</Index>
+			</Item>
+		</Add>
+	</Execution>
+	<Registry></Registry>
+</Preset>
